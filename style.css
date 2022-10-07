@@ -1,0 +1,106 @@
+* {
+    font-family: Arial;
+}
+
+header {
+    position: fixed;
+    background-color:darkcyan;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+h3 {
+    padding-left: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+header p {
+    font-size: 20px;
+    padding-top: 8px;
+}
+p {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.links{
+    display: flex;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color:darkcyan;
+    left: 0;
+    width: 100%;
+}
+
+.homepage {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.homepage-photo {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.team-logo {
+    padding-left: 10px;
+    width: 2%;
+}
+
+li {
+    padding-bottom: 30px;
+}
+
+.list {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 25px;
+}
+
+.list a:link {
+    color: black;
+}
+
+.list a:visited {
+    color: black;
+}
+
+.list a:hover {
+    color:darkgrey;
+}
+
+.list a:active {
+    color:darkgrey;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:active {
+    text-decoration: none;
+    color: lightgray;
+}
